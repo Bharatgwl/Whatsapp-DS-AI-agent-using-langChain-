@@ -10,7 +10,6 @@ from datetime import datetime, UTC
 import pandas as pd
 from io import StringIO
 
-
 load_dotenv()
 
 MONGO_URI = os.getenv("MONGO_URI")
